@@ -1,0 +1,88 @@
+* {
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease;
+  transition-timing-function: ease;
+}
+
+.btn {
+  border: 4px solid #ff855c;
+  padding: 10px 20px;
+  color: #ff855c;
+
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+
+  transition: background-color 150ms !important;
+}
+
+.btn:hover {
+  background: #ff855c;
+  color: #fff;
+}
+
+.buttons {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  /* flex-direction: column; */
+  height: 100%;
+  -webkit-box-pack: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+.button {
+  color: #ff855c;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 45px;
+  margin: 0 0 2em;
+  max-width: 140px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.button:hover {
+  text-decoration: none;
+}
+
+.btn-1 {
+  font-weight: 600;
+}
+.btn-1 svg {
+  height: 45px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.btn-1 rect {
+  fill: none;
+  stroke: #ff855c;
+  stroke-width: 8;
+  stroke-dasharray: 422, 0;
+  -webkit-transition: all 0.35s linear;
+  transition: all 0.35s linear;
+}
+
+.btn-1:hover {
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+.btn-1:hover rect {
+  stroke-width: 6;
+  stroke-dasharray: 15, 310;
+  stroke-dashoffset: 78;
+  -webkit-transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+  transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
