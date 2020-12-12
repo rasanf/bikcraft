@@ -5,8 +5,14 @@
 # :bike: Sobre a Bikcraft
 Esse projeto foi realizado durante o curso de Web Design Completo da Origamid, onde foi desenvolvido um site para uma empresa fictícia que vende bicicletas personalizadas.
 
-## :mag_right: Tabela de conteúdos
+## :mag_right: Tabela de conteúdo
 <!--ts-->
+   * [Sobre a Bikcraft](#sobre-a-bikcraft)
+   * [Tabela de conteúdo](#tabela-de-conteudo)
+   * [Layout](#layout)
+   * [Tecnologias](#tecnologias)
+   * [Como executar o projeto](#como-executar-o-projeto)
+   * [Licença](#licenca)
 <!--te-->
 
 ## :computer: Layout
