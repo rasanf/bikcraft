@@ -2,19 +2,20 @@
   <img width="100%" height="328" src="https://github.com/rasanf/bikcraft-origamid/blob/master/img/github/banner-git.jpg">
 </p>
 
+<a id="sobre-a-bikcraft"></a>
 # :bike: Sobre a Bikcraft
 Esse projeto foi realizado durante o curso de Web Design Completo da Origamid, onde foi desenvolvido um site para uma empresa fictícia que vende bicicletas personalizadas.
 
+<a id="tabela-de-conteudo"></a>
 ## :mag_right: Tabela de conteúdo
-<!--ts-->
    * [Sobre a Bikcraft](#sobre-a-bikcraft)
    * [Tabela de conteúdo](#tabela-de-conteudo)
    * [Layout](#layout)
    * [Tecnologias](#tecnologias)
    * [Como executar o projeto](#como-executar-o-projeto)
    * [Licença](#licenca)
-<!--te-->
 
+<a id="layout"></a>
 ## :computer: Layout
 <p align="center">
   <img width="100%" src="https://github.com/rasanf/bikcraft-origamid/blob/master/img/github/mockup-bikcraft.jpg">
@@ -24,6 +25,7 @@ Esse projeto foi realizado durante o curso de Web Design Completo da Origamid, o
   <img width="100%" src="https://github.com/rasanf/bikcraft-origamid/blob/master/img/github/demonstracao.gif">
 </p>
 
+<a id="tecnologias"></a>
 ## :zap: Tecnologias
 Esse projeto foi desenvolvido com as seguintes ferramentas:
 
@@ -36,6 +38,7 @@ Esse projeto foi desenvolvido com as seguintes ferramentas:
 * Fontes: <a href="https://fonts.google.com/specimen/Montserrat?query=montserrat">Montserrat</a> e <a href="https://fonts.google.com/specimen/Lora?query=lora">Lora</a>
 * Efeito do botão: <a href="https://codepen.io/karimbalaa/pen/qERbB">Slick Button</a>
 
+<a id="como-executar-o-projeto"></a>
 ## :point_right: Como executar o projeto
 ```
 - Clone o repositório:
@@ -45,6 +48,7 @@ $ git clone https://github.com/rasanf/bikcraft-origamid.git
 $ cd bikcraft-origamid
 ```
 
+<a id="licenca"></a>
 ## :page_facing_up: Licença
 O projeto está sob a licença MIT. Para maiores detalhes, acesse <a href="https://github.com/rasanf/bikcraft-origamid/blob/master/LICENSE">LICENSE</a>.
 
