@@ -81,7 +81,7 @@
   }
 
   .header_menu ul li a {
-    border: 4px solid #12130f;
+    border: 4px solid $cor-secundaria;
     width: 136px;
     display: block;
     float: left;
@@ -89,11 +89,11 @@
   }
 
   .header_menu ul li a:hover {
-    border-color: #fff;
+    border-color: $white;
   }
 
   .header_menu ul li a.active {
-    border-color: #fff;
+    border-color: $white;
   }
 
   /* Introdução */

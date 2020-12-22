@@ -20,7 +20,7 @@ img {
   font-weight: bold;
   letter-spacing: 0.05em;
 
-  color: #12130f;
+  color: $cor-secundaria;
 
   text-transform: uppercase;
   text-align: center;
@@ -33,7 +33,7 @@ img {
   display: block;
   width: 60px;
   height: 3px;
-  background: #12130f;
+  background: $cor-secundaria;
   margin: 7px auto;
 }
 
@@ -49,14 +49,14 @@ img {
   display: block;
   width: 60px;
   height: 3px;
-  background: #12130f;
+  background: $cor-secundaria;
   margin: 8px 0 20px;
 }
 
 /* Header */
 .header {
   width: 100%;
-  background: #ff855c;
+  background: $cor-primaria;
   padding: 15px 0;
   position: fixed;
   top: 0;
@@ -74,7 +74,7 @@ img {
 }
 
 .header_menu ul li a {
-  color: #12130f;
+  color: $cor-secundaria;
 
   font-weight: bold;
   font-size: 14px;
@@ -88,11 +88,11 @@ img {
 }
 
 .header_menu ul li a:hover {
-  color: #fff;
+  color: $white;
 }
 
 .header_menu ul li a.active {
-  color: #fff;
+  color: $white;
 }
 
 /* Introdução */
@@ -109,7 +109,7 @@ img {
 
 .introducao h1 {
   font-size: 48px;
-  color: #fff;
+  color: $white;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -118,7 +118,7 @@ img {
   max-width: 320px;
   margin: 0 auto;
   margin-bottom: 50px;
-  color: #fff;
+  color: $white;
 }
 
 .quote-externo p {
@@ -130,7 +130,7 @@ img {
   display: block;
   width: 60px;
   height: 3px;
-  background: #fff;
+  background: $white;
   margin: 18px auto 10px;
 }
 
@@ -139,7 +139,7 @@ img {
   display: block;
   width: 60px;
   height: 3px;
-  background: #fff;
+  background: $white;
   margin: 12px auto;
 }
 
@@ -159,7 +159,7 @@ img {
   margin-top: 92px;
   padding-top: 38px;
 
-  color: #fff;
+  color: $white;
   text-align: center;
 }
 
@@ -174,7 +174,7 @@ img {
   display: block;
   width: 60px;
   height: 3px;
-  background: #fff;
+  background: $white;
   margin: 7px auto 10px;
 }
 
@@ -184,7 +184,7 @@ img {
 }
 
 .produtos_lista li {
-  background: #ff855c;
+  background: $cor-primaria;
   text-align: center;
 }
 
@@ -203,7 +203,7 @@ img {
   display: block;
   width: 60px;
   height: 3px;
-  background: #12130f;
+  background: $cor-secundaria;
   margin: 5px auto;
 }
 
@@ -212,7 +212,7 @@ img {
 }
 
 .produtos_icone {
-  background: #12130f;
+  background: $cor-secundaria;
   padding: 20px;
 }
 
@@ -233,22 +233,22 @@ img {
 /* Porfólio */
 .portfolio {
   width: 100%;
-  background: #12130f;
+  background: $cor-secundaria;
   padding: 40px 0 30px;
 }
 
 .produtos-portfolio {
   width: 100%;
-  background: #12130f;
+  background: $cor-secundaria;
   padding: 40px 0 25px;
 }
 
 .portfolio .subtitulo {
-  color: #ff855c;
+  color: $cor-primaria;
 }
 
 .portfolio .subtitulo:after {
-  background: #ff855c;
+  background: $cor-primaria;
 }
 
 .portfolio_lista li:last-child {
@@ -256,7 +256,7 @@ img {
 }
 
 .portfolio .cta p {
-  color: #fff;
+  color: $white;
 }
 
 /* Qualidade */
@@ -305,7 +305,7 @@ img {
   display: block;
   width: 60px;
   height: 3px;
-  background: #12130f;
+  background: $cor-secundaria;
   margin: 9px auto;
 }
 
@@ -328,8 +328,8 @@ img {
 /* Footer */
 .footer {
   width: 100%;
-  background: #12130f;
-  color: #fff;
+  background: $cor-secundaria;
+  color: $white;
   padding: 25px 0;
 }
 
@@ -351,7 +351,7 @@ img {
   letter-spacing: 0.1em;
 
   text-transform: uppercase;
-  color: #ff855c;
+  color: $cor-primaria;
 }
 
 .footer h3:after {
@@ -359,7 +359,7 @@ img {
   display: block;
   width: 60px;
   height: 3px;
-  background: #ff855c;
+  background: $cor-primaria;
   margin: 9px 0 15px;
 }
 
@@ -380,8 +380,8 @@ img {
 
 .copy {
   width: 100%;
-  background: #ff855c;
-  color: #fff;
+  background: $cor-primaria;
+  color: $white;
   padding: 20px 0;
 }
 
@@ -426,7 +426,7 @@ img {
 }
 
 .js [data-slide-nav] button.active {
-  background: #ff855c;
+  background: $cor-primaria;
 }
 
 .js [data-anime] {

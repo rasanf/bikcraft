@@ -14,7 +14,7 @@
   letter-spacing: 0.05em;
   text-transform: uppercase;
   text-align: center;
-  color: #fff;
+  color: $white;
 
   position: relative;
   top: -180px;
@@ -28,12 +28,12 @@
   display: block;
   width: 60px;
   height: 3px;
-  background: #fff;
+  background: $white;
   margin: 6px auto 8px auto;
 }
 
 .produto_icone {
-  background: #12130f;
+  background: $cor-secundaria;
   padding: 70px 0;
 }
 
@@ -42,14 +42,14 @@
 }
 
 .produto_info {
-  background: #12130f;
+  background: $cor-secundaria;
 }
 
 .produto_info p {
   font-size: 18px;
   line-height: 25px;
 
-  color: #fff;
+  color: $white;
   height: 178px;
   padding: 30px 40px;
 }
@@ -62,7 +62,7 @@
   text-transform: uppercase;
   text-align: center;
 
-  background: #ff855c;
+  background: $cor-primaria;
   float: left;
 
   width: 229px;
@@ -84,15 +84,15 @@
   width: 100%;
   margin-top: 60px;
   padding: 40px;
-  background: #12130f;
+  background: $cor-secundaria;
 }
 
 .orcamento h2 {
-  color: #ff855c;
+  color: $cor-primaria;
 }
 
 .orcamento h2:after {
-  background: #ff855c;
+  background: $cor-primaria;
 }
 
 .form {
@@ -101,7 +101,7 @@
 
 .form label {
   display: block;
-  color: #ff855c;
+  color: $cor-primaria;
 
   font-family: "Lora", "Lato", serif;
   font-size: 18px;
@@ -113,7 +113,7 @@
 .form input {
   width: 100%;
   display: block;
-  border: 4px solid #ff855c;
+  border: 4px solid $cor-primaria;
   outline: none;
   background: none;
 
@@ -121,14 +121,14 @@
   margin-bottom: 10px;
 
   font-size: 14px;
-  color: #fff;
+  color: $white;
 }
 
 .form textarea {
   width: 100%;
   height: 120px;
   display: block;
-  border: 4px solid #ff855c;
+  border: 4px solid $cor-primaria;
   outline: none;
   background: none;
 
@@ -136,7 +136,7 @@
   margin-bottom: 20px;
 
   font-size: 14px;
-  color: #fff;
+  color: $white;
 }
 
 .form button {
@@ -145,7 +145,7 @@
 }
 
 .orcamento_dados {
-  color: #fff;
+  color: $white;
 }
 
 .orcamento_dados h3 {
@@ -154,7 +154,7 @@
   font-weight: bold;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #ff855c;
+  color: $cor-primaria;
 }
 
 .orcamento_dados span {
