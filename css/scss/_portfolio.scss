@@ -11,18 +11,29 @@
   padding: 60px 0;
   max-width: 460px;
   margin: 0 auto;
+
+  @include device(mobile) {
+    padding: 40px 0 43px;
+  }
 }
 
 .quote_clientes p {
   text-align: center;
-  font-size: 18px;
-  line-height: 25px;
   font-style: italic;
   margin-bottom: 18px;
+  @include type-2(18);
+
+  @include device(mobile) {
+    @include type-1(16);
+  }
 }
 
 .quote_clientes cite {
-  font-size: 18px;
   font-weight: bold;
   font-style: normal;
+  @include type-2(18);
+
+  @include device(mobile) {
+    @include type-1(16);
+  }
 }

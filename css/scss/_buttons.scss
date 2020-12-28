@@ -12,12 +12,13 @@
   padding: 10px 20px;
   color: $cor-primaria;
 
-  font-size: 14px;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.1em;
 
   transition: background-color 150ms !important;
+
+  @include type-1(14);
 }
 
 .btn:hover {
@@ -41,7 +42,7 @@
 .button {
   color: $cor-primaria;
   cursor: pointer;
-  font-size: 14px;
+  @include type-1(14);
   font-weight: 400;
   line-height: 45px;
   margin: 0 0 2em;

@@ -9,16 +9,24 @@
 }
 
 .missao_sobre p {
-  font-size: 18px;
-  line-height: 25px;
   margin-bottom: 1em;
   padding-right: 60px;
+  @include type-1(18);
+
+  @include device(mobile) {
+    padding-right: 0px;
+    @include type-1(14);
+  }
 }
 
 .missao_sobre ul li {
-  font-size: 18px;
+  @include type-2(18);
   line-height: 30px;
-  font-family: "Lora", "Lato", serif;
+
+  @include device(mobile) {
+    @include type-1(14);
+    line-height: 25px;
+  }
 }
 
 .foto-equipe {
@@ -27,4 +35,19 @@
 
 .qualidade-sobre {
   padding: 60px 0 50px;
+
+  @include device(mobile) {
+    padding: 50px 0 30px;
+  }
+}
+
+.qualidade-sobre:after {
+  @include device(tablet) {
+    right: 82px;
+    background: url("../img/linhas-mobile.svg") no-repeat center;
+  }
+
+  @include device(mobile) {
+    display: none;
+  }
 }

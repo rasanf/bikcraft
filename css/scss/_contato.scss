@@ -10,17 +10,19 @@
 
 .contato_form {
   padding-right: 60px;
+
+  @include device(mobile) {
+    padding-right: 0;
+    margin-bottom: 45px;
+  }
 }
 
 .contato_form label {
   display: block;
   color: $cor-primaria;
-
-  font-family: "Lora", "Lato", serif;
-  font-size: 18px;
-  line-height: 25px;
-
   margin-bottom: 3px;
+
+  @include type-2(18);
 }
 
 .contato_form input {
@@ -33,7 +35,7 @@
   padding: 7px 10px;
   margin-bottom: 10px;
 
-  font-size: 14px;
+  @include type-1(14);
 }
 
 .contato_form textarea {
@@ -47,7 +49,7 @@
   padding: 7px 10px;
   margin-bottom: 20px;
 
-  font-size: 14px;
+  @include type-1(14);
 }
 
 .contato_form button {
@@ -57,22 +59,24 @@
 
 .contato_dados {
   color: #292929;
+
+  @include device(mobile) {
+    margin-bottom: 7px;
+  }
 }
 
 .contato_dados h3 {
-  font-size: 18px;
-  line-height: 25px;
   font-weight: bold;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: $cor-primaria;
+  @include type-1(18);
 }
 
 .contato_dados span {
   display: block;
-  font-size: 18px;
+  @include type-2(18);
   line-height: 30px;
-  font-family: "Lora", "Lato", serif;
 }
 
 .contato_dados ul li a img {
