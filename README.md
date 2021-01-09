@@ -49,7 +49,7 @@ Esse projeto foi desenvolvido com as seguintes ferramentas:
 ## :point_right: Como executar o projeto
 ```
 - Clone o repositório:
-$ git clone https://github.com/rasanf/bikcraft-origamid.git
+$ git clone https://github.com/rasanf/bikcraft.git
 
 - Entre no diretório:
 $ cd bikcraft-origamid
