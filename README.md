@@ -52,7 +52,7 @@ Esse projeto foi desenvolvido com as seguintes ferramentas:
 $ git clone https://github.com/rasanf/bikcraft.git
 
 - Entre no diretório:
-$ cd bikcraft-origamid
+$ cd bikcraft
 ```
 
 <a id="licenca"></a>
